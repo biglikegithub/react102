@@ -1,0 +1,25 @@
+{
+  "homepage": "http://biglikegithub.github.io/react102",
+  "name": "react102",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "next": "9.1.2",
+    "react": "16.11.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "16.11.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
