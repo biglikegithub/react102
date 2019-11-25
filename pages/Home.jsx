@@ -6,7 +6,7 @@ import MovieCard from "../components/MovieCard";
 import Axios from "axios";
 import { throws } from "assert";
 
-import { Row, Form, Button, Col } from "react-bootstrap";
+import { Row, From, Button, Col } from "react-bootstrap";
 
 const API_KEY = "8018e581";
 
@@ -20,7 +20,7 @@ class Home extends React.Component {
   }
   handleClick(e) {
     e.preventDefault();
-    console.log("test1: " + this.state.query);
+    console.log(this.state.query);
     Axios.get(
       `https://www.omdbapi.com/?apikey=${API_KEY}&s=${this.state.query}`
     ).then(res => {
