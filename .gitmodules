@@ -1,3 +1,6 @@
 [submodule "streaming"]
 	path = streaming
 	url = git@github.com:biglikegithub/streaming.git
+[submodule "testProject"]
+	path = testProject
+	url = git@github.com:biglikegithub/testProject.git
