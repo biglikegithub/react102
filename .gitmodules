@@ -4,3 +4,6 @@
 [submodule "testProject"]
 	path = testProject
 	url = git@github.com:biglikegithub/testProject.git
+[submodule "tst/test2"]
+	path = tst/test2
+	url = git@github.com:biglikegithub/testProject2.git
